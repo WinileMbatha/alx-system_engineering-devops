@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -f "root"-a 3 /etc/passwd
+grep -A 3 --group-separator=-- "root" /etc/passwd
